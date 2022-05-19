@@ -1,0 +1,15 @@
+{
+    "name": "ngeblog/install",
+    "autoload": {
+        "psr-4": {
+            "Ngeblog\\Install\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Shalahuddin Al-Ayubi",
+            "email": "shalahuddin69@gmail.com"
+        }
+    ],
+    "require": {}
+}

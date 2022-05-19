@@ -1,0 +1,16 @@
+{
+    "name": "ngeblog/post",
+    "description": "Post feature",
+    "autoload": {
+        "psr-4": {
+            "Ngeblog\\Post\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Shalahuddin Al-Ayubi",
+            "email": "shalahuddin69@gmail.com"
+        }
+    ],
+    "require": {}
+}
