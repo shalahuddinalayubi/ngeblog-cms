@@ -22,15 +22,15 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('tag', require('./../../packages/ngeblog/app/src/Ngeblog/Tag/resources/js/components/Tag.vue').default);
+Vue.component('tag', require('./../../vendor/ngeblog/app/src/Ngeblog/Tag/resources/js/components/Tag.vue').default);
 
-Vue.component('reply-comment', require('./../../packages/ngeblog/app/src/Ngeblog/Comment/resources/js/components/ReplyComment.vue').default)
-Vue.component('edit-comment', require('./../../packages/ngeblog/app/src/Ngeblog/Comment/resources/js/components/EditComment.vue').default)
+Vue.component('reply-comment', require('./../../vendor/ngeblog/app/src/Ngeblog/Comment/resources/js/components/ReplyComment.vue').default)
+Vue.component('edit-comment', require('./../../vendor/ngeblog/app/src/Ngeblog/Comment/resources/js/components/EditComment.vue').default)
 
-Vue.component('the-post-editor', require('./../../packages/ngeblog/app/src/Ngeblog/Post/resources/js/components/ThePostEditor').default)
+Vue.component('the-post-editor', require('./../../vendor/ngeblog/app/src/Ngeblog/Post/resources/js/components/ThePostEditor').default)
 
-Vue.component('the-navbar-dropdown-account', require('./../../packages/ngeblog/app/src/Ngeblog/Template/resources/js/components/TheNavbarDropdownAccount.vue').default)
-Vue.component('the-navbar-dropdown-post', require('./../../packages/ngeblog/app/src/Ngeblog/Template/resources/js/components/TheNavbarDropdownPost.vue').default)
+Vue.component('the-navbar-dropdown-account', require('./../../vendor/ngeblog/app/src/Ngeblog/Template/resources/js/components/TheNavbarDropdownAccount.vue').default)
+Vue.component('the-navbar-dropdown-post', require('./../../vendor/ngeblog/app/src/Ngeblog/Template/resources/js/components/TheNavbarDropdownPost.vue').default)
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
