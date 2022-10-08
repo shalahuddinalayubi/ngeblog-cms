@@ -48,7 +48,8 @@
                 "Ngeblog\\Post\\PostServiceProvider",
                 "Ngeblog\\Tag\\TagServiceProvider",
                 "Ngeblog\\Comment\\CommentServiceProvider",
-                "Ngeblog\\Install\\InstallServiceProvider"
+                "Ngeblog\\Install\\InstallServiceProvider",
+                "Ngeblog\\File\\FileServiceProvider"
             ]
         }
     }

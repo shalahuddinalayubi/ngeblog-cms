@@ -31,6 +31,9 @@ Vue.component('the-post-editor', require('./../../vendor/ngeblog/app/src/Ngeblog
 
 Vue.component('the-navbar-dropdown-account', require('./../../vendor/ngeblog/app/src/Ngeblog/Template/resources/js/components/TheNavbarDropdownAccount.vue').default)
 Vue.component('the-navbar-dropdown-post', require('./../../vendor/ngeblog/app/src/Ngeblog/Template/resources/js/components/TheNavbarDropdownPost.vue').default)
+Vue.component('the-navbar-dropdown-file', require('./../../vendor/ngeblog/app/src/Ngeblog/Template/resources/js/components/TheNavbarDropdownFile.vue').default)
+
+Vue.component('the-upload-file', require('./../../vendor/ngeblog/app/src/Ngeblog/File/resources/js/components/TheUploadFile.vue').default)
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
