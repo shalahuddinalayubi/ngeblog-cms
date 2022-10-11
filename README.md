@@ -4,12 +4,20 @@ This is a blog platform.
 
 ## Installation
 
-1. composer
-2. php artisaan
+1. Install
+```bash
+composer require ngeblog/app
+```
+2. Create database and seeting your `.env`
+3. Run php artisaan
 ```bash
 php artisan ngeblog:install
 ```
-2. npm run
+4. Run php artisan
+```bash
+php artisan storage:link
+```
+4. Run npm
 ```bash
 npm run install && npm run production
 ```
