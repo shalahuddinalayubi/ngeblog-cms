@@ -23,6 +23,16 @@
                 >
                 </the-navbar-dropdown-post>
             @endauth
+
+            @auth
+                <the-navbar-dropdown-file
+                    update-profile="{{ route('profile.edit') }}"
+                    change-password="{{ route('password.edit') }}"
+                    logout="{{ route('logout') }}"
+                    files-index="{{ route('files.index') }}"
+                >
+                </the-navbar-dropdown-file>
+            @endauth
         </div>
 
         <div class="mt-2 lg:mt-0">

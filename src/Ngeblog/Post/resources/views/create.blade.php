@@ -19,8 +19,13 @@
                 @enderror
             </div>
 
-            <the-post-editor has-error="{{ $errors->has('content') }}" name="content" value="{{ old('content') }}">
+            <the-post-editor
+                has-error="{{ $errors->has('content') }}"
+                name="content"
+                value="{{ old('content') }}"
+                post-action="{{ route('api.files.store') }}">
             </the-post-editor>
+            
             @error('content')
                 <div class="text-xs text-red-500">
                     {{ $message }}
