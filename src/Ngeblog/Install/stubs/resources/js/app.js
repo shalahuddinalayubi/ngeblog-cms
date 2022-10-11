@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import VModal from 'vue-js-modal';
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -9,6 +10,8 @@ import Vue from 'vue';
 // require('./bootstrap');
 
 window.Vue = require('vue').default;
+
+Vue.use(VModal);
 
 /**
  * The following block of code may be used to automatically register your
@@ -34,6 +37,8 @@ Vue.component('the-navbar-dropdown-post', require('./../../vendor/ngeblog/app/sr
 Vue.component('the-navbar-dropdown-file', require('./../../vendor/ngeblog/app/src/Ngeblog/Template/resources/js/components/TheNavbarDropdownFile.vue').default)
 
 Vue.component('the-upload-file', require('./../../vendor/ngeblog/app/src/Ngeblog/File/resources/js/components/TheUploadFile.vue').default)
+
+Vue.component('pagination', require('./../../vendor/ngeblog/app/src/Ngeblog/Post/resources/js/components/Pagination.vue').default)
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

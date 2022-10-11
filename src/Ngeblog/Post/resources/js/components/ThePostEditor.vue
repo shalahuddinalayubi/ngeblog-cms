@@ -76,7 +76,8 @@
 
         <modal name="image" height="auto" :adaptive="true">
             <div class="m-3">
-                <the-upload-file>
+                <the-upload-file
+                    :post-action="postAction">
                 </the-upload-file>
 
                 <loading :active="image.isLoading"
@@ -210,7 +211,8 @@ export default {
         name: String,
         hasError: {
             default: false
-        }
+        },
+        postAction: String
     },
 
     created() {
